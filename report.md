@@ -35,6 +35,7 @@
 - [x] Сбор и анализ метрик; визуализация результатов
 
 ##### Ключевые фрагменты кода
+###### 1 часть лабораторной работы
 - Скрипт documents/tech_docs.py
 ```python
 DOCUMENTS = [
@@ -514,7 +515,7 @@ def test_rag_system():
 if __name__ == "__main__":
     test_rag_system()
 ```
-
+###### 2 часть лабораторной работы
 - Скрипт benchmark_system.py
 ```python
 import pandas as pd
@@ -1077,7 +1078,7 @@ if __name__ == "__main__":
     print("\nСводный отчет по моделям:")
     print(report)
 ```
-
+###### 3 часть лабораторной работы
 - Скрипт api/pipeline_service.py
 ```python
 import logging
@@ -1589,7 +1590,7 @@ async def demonstrate_pipeline():
 if __name__ == "__main__":
     asyncio.run(demonstrate_pipeline())
 ```
-
+###### 4 часть лабораторной работы
 - Скрипт evaluation/generation_evaluation.py
 ```python
 import evaluate
