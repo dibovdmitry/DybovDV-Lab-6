@@ -29,7 +29,7 @@ class RAGEvaluator:
             test_cases = self.dataset.test_cases
         logger.info(f"Starting comprehensive evaluation with {len(test_cases)} test cases")
 
-        # Этап 1: Оценка ретривера (синхронно)
+        # Этап 1: Оценка ретривера
         retrieval_results = self.retrieval_evaluator.evaluate_dataset(test_cases)
 
         # Этап 2: Получение ответов от полной системы
@@ -47,7 +47,7 @@ class RAGEvaluator:
                 logger.error(f"Error processing question: {test_case.question}, error: {e}")
                 generated_answers.append("")  # Пустой ответ в случае ошибки
 
-        # Этап 3: Оценка генерации (синхронно)
+        # Этап 3: Оценка генерации
         generation_results = self.generation_evaluator.evaluate_answers(test_cases, generated_answers)
 
         # Этап 4: Агрегация результатов
