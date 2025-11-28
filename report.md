@@ -2275,7 +2275,7 @@ if __name__ == "__main__":
 
 ##### Приложения
 - Скрипты main.py, test_rag_system.py, documents/tech_docs.py, retriever/vector_store.py, generator/llm_client.py находятся в папке в lab-6-1.
-- Скрипты main_optimized.py, generate_report, retriever/vector_store.py, gdocuments/tech_docs.py и generator/* находятся в папке в lab-6-2.
+- Скрипты main_optimized.py, generate_report, retriever/vector_store.py, documents/tech_docs.py и generator/* находятся в папке в lab-6-2.
 - Скрипты pipeline/rag_pipeline.py, api/pipeline_service.py, config/pipeline_config.py, tests/test_pipeline.py находятся в папке в lab-6-3.
-- Скрипты evaluation/* и run_evaluation.py, а также папка с полученными отчётами в папке rag-system/reports находятся в папке в lab-6-4;
+- Скрипты evaluation/* и run_evaluation.py, а также папка с полученными отчётами (rag-system/reports) находятся в папке в lab-6-4;
 - Скриншоты помещены в папку report.
