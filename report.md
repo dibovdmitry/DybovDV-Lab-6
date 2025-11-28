@@ -39,51 +39,83 @@
 ```python
 
 ```
+
 - Скрипт generator/llm_client.py
 ```python
 
 ```
+
 - Скрипт retriever/vector_store.py
 ```python
 
 ```
+
 - Скрипт main.py
 ```python
 
 ```
+
 - Скрипт test_rag_system.py
 ```python
 
 ```
+
 - Скрипт main_optimized.py
 ```python
 
 ```
+
 - Скрипт generate_report.py
 ```python
 
 ```
+
 - Скрипт api/pipeline_service.py
 ```python
 
 ```
+
 - Скрипт config/pipeline_config.py
 ```python
 
 ```
+
 - Скрипт pipeline/rag_pipeline.py
 ```python
 
 ```
+
 - Скрипт tests/test_pipeline.py
 ```python
 
 ```
+
 - Скрипт demo/demo_pipeline.py
 ```python
 
 ```
+
 - Скрипт evaluation/generation_evaluation.py
+```python
+
+```
+
+- Скрипт evaluation/rag_evaluation.py
+```python
+
+```
+
+- Скрипт evaluation/retrieval_evaluation.py
+```python
+
+```
+
+- Скрипт evaluation/test_dataset.py
+```python
+
+```
+
+- Скрипт evaluation/visualisation.py
 ```python
 
 ```
