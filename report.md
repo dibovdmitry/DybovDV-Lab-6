@@ -2222,7 +2222,7 @@ if __name__ == "__main__":
 ![скриншот](report/Screenshot7.png "Результат выполнения main.py") \
 ![скриншот](report/Screenshot7-1.png "Результат выполнения main.py") \
 ![скриншот](report/Screenshot7-2.png "Результат выполнения main.py") \
-Рисунок 3 - Результат выполнения main.py \
+Рисунок 3 - Результат выполнения main.py
 
 3. Написан код для генерации отчётов в test_rag_system.py;
 ![скриншот](report/Screenshot9.png "Результат выполнения test_rag_system.py") \
@@ -2230,7 +2230,7 @@ if __name__ == "__main__":
 
 4. В папке generator созданы файлы model_comarison.py, optimized_generator.py и benchmark_system.py; \
 ![скриншот](report/Screenshot10.png "Создание новых файлов") \
-Рисунок 5 - Создание новых файлов \
+Рисунок 5 - Создание новых файлов
 
 5. В корневой папке созданы модифицированный main.py файл – main_optimized.py и файл создания отчета о настройке генератора – generate_report.py. Запущено выполнение файла main_optimized.py; \
 ![скриншот](report/Screenshot16.png "Результат выполнения main_optimized.py") \
@@ -2246,7 +2246,7 @@ if __name__ == "__main__":
 8. Создана папка evaluation с файлами test_dataset.py, retrieval_evaluator.py, generation_evaluator.py, rag_evaluator.py и visualization.py;
 9. В корневой папке создан файл для комплексной оценки run_evaluation.py;
 ![скриншот](report/Screenshot30.png "Результат выполнения run_evaluation.py") \
-Рисунок 8 - Результат выполнения run_evaluation.py \
+Рисунок 8 - Результат выполнения run_evaluation.py
 
 10. Получены графики, оценивающие комплексной оценки качества RAG-системы;
 ![скриншот](report/Screenshot31.png "График комплексной оценки качества RAG-системы") \
