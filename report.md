@@ -515,6 +515,21 @@ if __name__ == "__main__":
     test_rag_system()
 ```
 
+- Скрипт benchmark_system.py
+```python
+
+```
+
+- Скрипт model_comparison.py
+```python
+
+```
+
+- Скрипт optimized_generator.py
+```python
+
+```
+
 - Скрипт main_optimized.py
 ```python
 
