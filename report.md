@@ -2237,7 +2237,7 @@ if __name__ == "__main__":
 ![скриншот](report/Screenshot16-1.png "Результат выполнения main_optimized.py") \
 Рисунок 6 - Результат выполнения main_optimized.py
 
-6. Создана директории api, config, pipeline, tests и demo. В них помещёны соответствующие файлы pipeline;
+6. Созданы директории api, config, pipeline, tests и demo. В них помещёны соответствующие файлы pipeline;
 7. Для проверки результатов запущен файл demo_pipeline.py через корневую папку;
 ![скриншот](report/Screenshot23.png "Результат выполнения demo_pipeline.py") \
 ![скриншот](report/Screenshot23-1.png "Результат выполнения demo_pipeline.py") \
