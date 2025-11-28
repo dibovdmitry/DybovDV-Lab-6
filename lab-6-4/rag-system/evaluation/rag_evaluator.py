@@ -76,6 +76,7 @@ class RAGEvaluator:
                 difficulty_results[difficulty] = results.get("aggregated_metrics", {})
         return difficulty_results
 
+    
     def _compile_final_report(
         self,
         retrieval_results: Dict[str, Any],
@@ -108,6 +109,7 @@ class RAGEvaluator:
         }
         return report
 
+    
     def _calculate_overall_score(self, retrieval_metrics: Dict[str, Any], generation_metrics: Dict[str, Any]) -> float:
         """Расчет общего скора системы"""
         weights = {
@@ -149,6 +151,7 @@ class RAGEvaluator:
                 pass
             raise
 
+    
     def generate_summary(self, report: Dict[str, Any]) -> str:
         """Генерация текстовой сводки"""
         metrics = report.get("aggregated_metrics", {})
@@ -177,6 +180,7 @@ class RAGEvaluator:
         )
         return summary
 
+    
     def _generate_recommendations(self, metrics: Dict[str, Any]) -> str:
         """Генерация рекомендаций по улучшению"""
         recommendations: List[str] = []
