@@ -2225,23 +2225,16 @@ if __name__ == "__main__":
 
 3. Написан код для генерации отчётов в test_rag_system.py;
 ![скриншот](report/Screenshot9.png "Результат выполнения test_rag_system.py") \
-Рисунок 7 - Результат выполнения test_rag_system.py
+Рисунок 4 - Результат выполнения test_rag_system.py
 
-4. В класс Pizza добавлен субкласс RussianPizza, добавлены аннотация и ограничители для RussianPizza, добавлено объектное свойство; \
-![скриншот](report/Screenshot14.png "Добавление субкласса") \
-Рисунок 8 - Добавление субкласса \
-![скриншот](report/Screenshot17.png "Финальный вид RussianPizza") \
-Рисунок 9 - Финальный вид RussianPizza \
-![скриншот](report/Screenshot21.png "Финальный вид объектного свойство") \
-Рисунок 10 - Финальный вид объектного свойство
+4. В папке generator созданы файлы model_comarison.py, optimized_generator.py и benchmark_system.py; \
+![скриншот](report/Screenshot10.png "Создание новых файлов") \
+Рисунок 5 - Создание новых файлов \
 
-5. Запущен Reasoner, изучена автоматическая классификация пицц и выполнен запрос в DL Query на поиск пиццы с грибами;
-![скриншот](report/Screenshot22.png "Запуск Reasoner") \
-Рисунок 11 - Запуск Reasoner \
-![скриншот](report/Screenshot23.png "Проверка автоматической классификации пицц") \
-Рисунок 12 - Проверка автоматической классификации пицц \
-![скриншот](report/Screenshot25.png "Поиск пицц с грибами") \
-Рисунок 13 - Поиск пицц с грибами
+5. В корневой папке созданы модифицированный main.py файл –main_optimized.py и файл создания отчета о настройке генератора – generate_report.py. Запущено выполнение файла main_optimized.py;
+![скриншот](report/Screenshot16.png "Результат выполнения main_optimized.py") \
+![скриншот](report/Screenshot16-1.png "Результат выполнения main_optimized.py") \
+Рисунок 6 - Результат выполнения main_optimized.py
 
 6. Сохранена онтология с добавленными данными;
 7. Написан и выполнен скрипт report_ontology.py для создания отчёта;
