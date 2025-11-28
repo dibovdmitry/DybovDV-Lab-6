@@ -2231,17 +2231,16 @@ if __name__ == "__main__":
 ![скриншот](report/Screenshot10.png "Создание новых файлов") \
 Рисунок 5 - Создание новых файлов \
 
-5. В корневой папке созданы модифицированный main.py файл –main_optimized.py и файл создания отчета о настройке генератора – generate_report.py. Запущено выполнение файла main_optimized.py;
+5. В корневой папке созданы модифицированный main.py файл – main_optimized.py и файл создания отчета о настройке генератора – generate_report.py. Запущено выполнение файла main_optimized.py;
 ![скриншот](report/Screenshot16.png "Результат выполнения main_optimized.py") \
 ![скриншот](report/Screenshot16-1.png "Результат выполнения main_optimized.py") \
 Рисунок 6 - Результат выполнения main_optimized.py
 
-6. Сохранена онтология с добавленными данными;
-7. Написан и выполнен скрипт report_ontology.py для создания отчёта;
-![скриншот](report/Screenshot28.png "Результат в командной строке") \
-Рисунок 14 - Результат в командной строке \
-![скриншот](report/Screenshot29.png "Результат в сохранённом файле") \
-Рисунок 15 - Результат в сохранённом файле
+6. Создана директории api, config, pipeline, tests и demo. В них помещёны соответствующие файлы pipeline;
+7. Для проверки результатов запущен файл demo_pipeline.py через корневую папку;
+![скриншот](report/Screenshot23.png "Результат выполнения demo_pipeline.py") \
+![скриншот](report/Screenshot23-1.png "Результат выполнения demo_pipeline.py") \
+Рисунок 7 - Результат выполнения demo_pipeline.py
 
 8. Установлена, распакована и запущена утилита Apache Jena Fuseki;
 ![скриншот](report/Screenshot30.png "Установка Apache Jena Fuseki") \
