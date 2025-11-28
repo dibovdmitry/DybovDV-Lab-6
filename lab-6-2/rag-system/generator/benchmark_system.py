@@ -100,4 +100,4 @@ class ModelBenchmark:
         stop_words = {"и", "в", "на", "с", "по", "для", "это", "что", "как"}
         keywords = [word for word in words if len(word) > 3 and word not in stop_words]
 
-        return list(set(keywords))[:10]  # Возвращаем топ-10 уникальных ключевых слов
+        return list(set(keywords))[:10]
